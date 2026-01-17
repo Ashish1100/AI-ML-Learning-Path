@@ -438,6 +438,7 @@ where each cᵢ ∈ ℝ⁹ (9-component vectors).
 import numpy as np
 
 A = np.random.rand(9, 9)  # Almost certainly invertible
+```
 
 ---
 
