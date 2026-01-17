@@ -367,6 +367,6 @@ This lecture introduced the **geometric intuition** behind linear systems:
 - **Course Textbook:** *Introduction to Linear Algebra* by Gilbert Strang
 - **Course Website:** [web.mit.edu/18.06](http://web.mit.edu/18.06)
 - **MIT OCW:** [ocw.mit.edu/18-06S05](http://ocw.mit.edu/18-06S05)
-- **Video Lectures:** [MIT OpenCourseWare YouTube](https://www.youtube.com/watch?v=ZK3O402wf1c)
+- **Video Lecture:** [MIT OpenCourseWare YouTube](https://www.youtube.com/watch?v=ZK3O402wf1c)
 
 ---
