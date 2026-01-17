@@ -319,7 +319,7 @@ where c₁, c₂, …, cₙ are scalars and v₁, v₂, …, vₙ are vectors.
 
 ---
 
-## Questions for Understanding
+## Important Questions
 
 ### Q1: What are the three pictures of linear systems?
 - **Row Picture:** Geometric objects (lines, planes, hyperplanes) intersecting
