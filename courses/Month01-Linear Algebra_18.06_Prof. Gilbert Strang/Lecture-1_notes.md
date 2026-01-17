@@ -1,4 +1,4 @@
-# MIT 18.06 Linear Algebra - Lecture 1: The Geometry of Linear Equations
+# Lecture 1: The Geometry of Linear Equations
 
 **Instructor:** Gilbert Strang  
 **Course:** MIT 18.06 Linear Algebra, Spring 2005  
