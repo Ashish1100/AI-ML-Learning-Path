@@ -1,1 +1,1 @@
-# AI-ML-Learning-Path
+# My-AI-ML-Learning-Path
