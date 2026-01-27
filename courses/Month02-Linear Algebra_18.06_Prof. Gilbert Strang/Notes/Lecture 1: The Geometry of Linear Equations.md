@@ -874,7 +874,7 @@ C(A) = {Ax : x ∈ ℝⁿ}
 
 ---
 
-## Key Takeaways for Further Study
+### Key Takeaways for Further Study
 
 1. **Master the column picture:** It is the foundation for understanding rank, null space, linear independence, and all core linear algebra concepts.
 2. **Connect geometry and algebra:** Elimination (Lecture 2) is the algorithmic procedure; geometry is the conceptual framework.
