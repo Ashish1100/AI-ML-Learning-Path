@@ -1064,7 +1064,7 @@ C(A) = {Ax : x ∈ ℝⁿ}
 ### Key Takeaways for Further Study
 
 1. **Master the column picture:** It is the foundation for understanding rank, null space, linear independence, and all core linear algebra concepts.
-2. **Connect geometry and algebra:** Elimination (Lecture 2) is the algorithmic procedure; geometry is the conceptual framework.
+2. **Connect geometry and algebra:** Elimination is the algorithmic procedure; geometry is the conceptual framework.
 3. **Generalize to n dimensions:** Even though you cannot draw in 9D, the principles (column space, span, linear combinations) are identical.
 4. **Recognize solvability patterns:** Before computing, ask: Are the columns independent? Does the matrix have full rank? Is b in the column space?
 5. **Applications abound:** Optimization, machine learning, differential equations, network analysis, and finance all reduce to solving Ax = b variants.
