@@ -866,7 +866,6 @@ C(A) = {Ax : x ∈ ℝⁿ}
 
 ### Problem Sets & Practice
 - **MIT OCW Problem Sets:** http://ocw.mit.edu/18-06S05
-- **3Blue1Brown "Essence of Linear Algebra" series:** YouTube
 
 ### Computational Platforms
 - **Python (NumPy/SciPy):** `np.linalg.solve()` for systems, `np.linalg.matrix_rank()` for rank computation
