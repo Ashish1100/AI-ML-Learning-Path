@@ -288,8 +288,8 @@ A matrix A is:
   - Infinitely many solutions exist (if b ∈ C(A) and the system is underdetermined)
 
 **Geometric intuition:**
-- Non-singular: The columns "fill" the entire space; you can reach any target b
-- Singular: The columns lie in a lower-dimensional subspace; you can only reach b if it lies in that subspace
+- Non-singular: The columns "fill" the entire space; we can reach any target b
+- Singular: The columns lie in a lower-dimensional subspace; we can only reach b if it lies in that subspace
 
 **Example of singularity:**
 ```
@@ -465,7 +465,7 @@ a₉₁x₁ + a₉₂x₂ + ... + a₉₉x₉ = b₉
 │  a₉₁   a₉₂   ...   a₉₉    │ │ x₉ │   │ b₉ │
 └                           ┘ └    ┘   └    ┘
 ```
-The same concepts from your 3D example extend naturally to 9-dimensional space (ℝ⁹), though we lose the ability to visualize them directly.
+The same concepts from our 3D example extend naturally to 9-dimensional space (ℝ⁹), though we lose the ability to visualize them directly.
 
 #### Row Picture in 9D
 
@@ -474,7 +474,7 @@ In 9-dimensional space, each linear equation defines an **8-dimensional hyperpla
 For a 9×9 system with 9 equations:
 - Each equation like a₁x₁ + a₂x₂ + ⋯ + a₉x₉ = b defines an 8D hyperplane in ℝ⁹
 - With full rank (non-parallel hyperplanes), all **9 hyperplanes intersect at a single point**
-- This unique intersection point is your solution vector in 9D space
+- This unique intersection point is our solution vector in 9D space
 
 Just as three non-parallel planes in 3D meet at a point, nine "generic" (non-parallel, independent) hyperplanes in 9D meet at exactly one point.
 
@@ -489,7 +489,7 @@ The column picture remains conceptually identical:
 **Find:** Coefficients x₁, x₂, …, x₉ such that: x₁·a₁ + x₂·a₂ + ⋯ + x₉·a₉ = b
 
 
-You're looking for a **linear combination of nine 9D column vectors** that produces **b**. If one of the columns equals **b** exactly (as a₃ did in your 3D example), the solution is immediate.
+We're looking for a **linear combination of nine 9D column vectors** that produces **b**. If one of the columns equals **b** exactly (as a₃ did in our 3D example), the solution is immediate.
 
 #### Key Differences from 3D
 
@@ -502,13 +502,13 @@ You're looking for a **linear combination of nine 9D column vectors** that produ
 
 #### Underdetermined Systems
 
-If you have fewer than 9 equations in 9D, the intersection is a higher-dimensional subspace:
+If we have fewer than 9 equations in 9D, the intersection is a higher-dimensional subspace:
 - **1 equation**: 8D hyperplane
 - **2 equations**: 7D subspace (intersection of two 8D hyperplanes)
 - **8 equations**: 1D line
 - **k equations**: (9-k)-dimensional subspace
 
-The geometric intuition remains: each additional constraint "slices" away one dimension until you reach a unique point (or determine the system has no solution).
+The geometric intuition remains: each additional constraint "slices" away one dimension until we reach a unique point (or determine the system has no solution).
 
 
 ---
@@ -624,11 +624,11 @@ Row 2 is 2 × row 1, so we need 2·1 = 3, which is false. **No solution.**
 
 ### What does geometry tell us that algebra hides?
 
-**Geometry reveals existence globally.** Algebra (elimination) is a step-by-step procedure; it doesn't immediately tell you whether a solution exists until you complete the process. 
+**Geometry reveals existence globally.** Algebra (elimination) is a step-by-step procedure; it doesn't immediately tell we whether a solution exists until we complete the process. 
 
 **Geometry provides intuition:**
-- In 2D, you can *see* whether two lines intersect
-- In 3D, you can *visualize* whether planes meet
+- In 2D, we can *see* whether two lines intersect
+- In 3D, we can *visualize* whether planes meet
 - For n dimensions, the column picture generalizes: Does b lie in the span of the columns?
 
 **Deeper insight:** The column space and null space (which we'll study later) completely characterize the solution structure:
