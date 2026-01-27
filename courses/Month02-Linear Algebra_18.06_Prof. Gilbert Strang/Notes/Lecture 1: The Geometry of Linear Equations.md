@@ -18,10 +18,11 @@
    - 3.8 [Singular vs. Non-Singular Matrices](#38-singular-vs-non-singular-matrices)
 4. [Maths](#4-maths)
    - 4.1 [Matrix-Vector Multiplication](#41-matrix-vector-multiplication-ax--b)
-   - 4.2 [The 2×2 Case](#42-the-2×2-case)
-   - 4.3 [The 3×3 Case](#43-the-3×3-case)
-   - 4.4 [When Solvability Fails](#44-when-does-solvability-fail)
-   - 4.5 [Worked Example: 2×2 System](#45-worked-example-2×2-system)
+   - 4.2 [The 2D Case](#42-the-2D-case)
+   - 4.3 [The 3D Case](#43-the-3D-case)
+   - 4.4 [The 9D Case](#44-the-9D-case)
+   - 4.5 [When Solvability Fails](#45-when-does-solvability-fail)
+   - 4.6 [Worked Example: 2D System](#46-worked-example-2D-system)
 5. [Big Question](#5-big-question)
 6. [Important Questions](#6-important-questions)
    - Q1 [Column Space](#question-1-what-is-the-column-space-of-a-matrix)
@@ -345,7 +346,7 @@ Ax = [a₁ | a₂ | ⋯ | aₙ] · [x₁, x₂, …, xₙ]ᵀ
 
 ---
 
-### 4.2 The 2×2 Case
+### 4.2 The 2D Case
 
 **System:**
 ```
@@ -393,7 +394,7 @@ The solution x = 1, y = 2 tells us that b is in the span of {a₁, a₂}.
 
 ---
 
-### 4.3 The 3×3 Case
+### 4.3 The 3D Case
 
 **System:**
 ```
@@ -444,7 +445,7 @@ Since a₃ = [0, -1, 4]ᵀ is exactly b, the solution is immediate: x = 0, y = 0
 
 ---
 
-### 4.4 When Does Solvability Fail?
+### 4.5 When Does Solvability Fail?
 
 **Singular matrix (columns linearly dependent):**
 
@@ -473,7 +474,7 @@ If Column 3 = Column 1 + Column 2 (or any other linear dependence), then:
 
 ---
 
-### 4.5 Worked Example: 2×2 System
+### 4.6 Worked Example: 2D System
 
 **Problem:** Solve
 ```
