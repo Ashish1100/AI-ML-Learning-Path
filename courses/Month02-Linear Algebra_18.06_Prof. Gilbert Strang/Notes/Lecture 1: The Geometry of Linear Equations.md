@@ -3,6 +3,41 @@
 
 ---
 
+## Table of Contents
+
+1. [Objective](#1-objective)
+2. [Importance](#2-importance)
+3. [Concepts](#3-concepts-from-the-lecture)
+   - 3.1 [Systems of Linear Equations](#31-systems-of-linear-equations)
+   - 3.2 [Matrix Form of Linear Equations](#32-matrix-form-of-linear-equations)
+   - 3.3 [The Row Picture](#33-the-row-picture)
+   - 3.4 [The Column Picture ★](#34-the-column-picture-)
+   - 3.5 [Linear Combination](#35-linear-combination)
+   - 3.6 [Span and Column Space](#36-span-and-column-space)
+   - 3.7 [Consistency and Inconsistency](#37-consistency-and-inconsistency)
+   - 3.8 [Singular vs. Non-Singular Matrices](#38-singular-vs-non-singular-matrices)
+4. [Maths (Detailed)](#4-maths-detailed)
+   - 4.1 [Matrix-Vector Multiplication](#41-matrix-vector-multiplication-ax--b)
+   - 4.2 [The 2×2 Case](#42-the-2×2-case-row-and-column-pictures)
+   - 4.3 [The 3×3 Case](#43-the-3×3-case-structure-and-solvability)
+   - 4.4 [When Solvability Fails](#44-when-does-solvability-fail)
+   - 4.5 [Worked Example: 2×2 System](#45-worked-example-2×2-system)
+5. [Big Question](#5-big-question)
+6. [Important Questions](#6-important-questions-with-correct-answers)
+   - Q1 [Column Space](#question-1-what-is-the-column-space-of-a-matrix)
+   - Q2 [Non-Intersecting Planes](#question-2-if-planes-do-not-intersect-what-does-that-tell-us-about-the-system)
+   - Q3 [Overdetermined Systems](#question-3-can-three-equations-in-two-unknowns-have-a-solution)
+   - Q4 [Linear Dependence](#question-4-what-does-it-mean-for-the-columns-of-a-matrix-to-be-linearly-dependent)
+   - Q5 [Row vs. Column Picture](#question-5-what-is-the-difference-between-the-row-picture-and-the-column-picture)
+   - Q6 [Universal Solvability](#question-6-is-it-always-possible-to-solve-ax--b-for-every-right-hand-side-b)
+   - Q7 [High-Dimensional Solvability](#question-7-in-high-dimensions-how-do-you-check-if-a-system-is-solvable-without-elimination)
+   - Q8 [Non-Singular Matrices](#question-8-what-is-the-geometric-meaning-of-a-non-singular-matrix)
+7. [Top-5 Interview Questions](#7-top-5-interview-questions)
+8. [Interview Summary](#8-interview-summary)
+9. [Summary](#9-summary)
+10. [Additional Resources](#10-additional-resources)
+---
+
 ## 1. Objective
 
 This lecture introduces the fundamental problem of linear algebra: **solving systems of linear equations**. By the end of this lecture, students should understand:
@@ -824,7 +859,6 @@ C(A) = {Ax : x ∈ ℝⁿ}
 - **Full course:** http://ocw.mit.edu/18-06S05
 - **Lecture 1 video:** https://www.youtube.com/watch?v=ZK3O402wf1c (39:49)
 - **Course syllabus, problem sets, exams:** http://ocw.mit.edu/18-06S05
-- **Professor Strang's textbook (primary source):** *Introduction to Linear Algebra*, 5th Edition (2016)
 
 ### Textbooks
 **Strang, G.** (2016). *Introduction to Linear Algebra* (5th ed.). Wellesley-Cambridge Press.
@@ -832,11 +866,9 @@ C(A) = {Ax : x ∈ ℝⁿ}
 
 ### Problem Sets & Practice
 - **MIT OCW Problem Sets:** http://ocw.mit.edu/18-06S05
-- **MATLAB Codes:** Available on the course webpage (for numerical experimentation)
-- **3Blue1Brown "Essence of Linear Algebra" series:** YouTube (exceptional visual intuition for Lectures 1–3)
+- **3Blue1Brown "Essence of Linear Algebra" series:** YouTube
 
 ### Computational Platforms
-- **GNU Octave:** Free MATLAB alternative; practice matrix operations
 - **Python (NumPy/SciPy):** `np.linalg.solve()` for systems, `np.linalg.matrix_rank()` for rank computation
 - **Mathematica/Wolfram Language:** Symbolic and numerical computation
 
