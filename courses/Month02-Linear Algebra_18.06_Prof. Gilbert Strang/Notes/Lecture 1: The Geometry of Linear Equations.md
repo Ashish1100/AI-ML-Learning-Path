@@ -445,7 +445,7 @@ Since a₃ = [0, -1, 4]ᵀ is exactly b, the solution is immediate: x = 0, y = 0
 
 ---
 
-### 4.3 The 3D Case
+### 4.4 The 9D Case
 
 **System:**
 ```
